@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>Maitri Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Maitri Bangalore</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact </a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section id="about">
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                     <img src="portfolio.jpg" alt="Your Photo" />
+  
+
+
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Maitri</span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
+                        I'm a <span id="typewriter-text"></span>
+                    </div>
+
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">passionate Frontend Developer and Machine Learning enthusiast with strong skills in building responsive, interactive web interfaces and developing intelligent data-driven models. With experience in HTML, CSS, JavaScript, and frameworks like React, along with expertise in Python, ML algorithms, and data analysis, I love turning ideas into user-friendly designs and smart AI solutions.</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="https://github.com/maitri-2004" ><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/bangalore-maitri-9a5942297/"><i class="fa-brands fa-linkedin"></i></a>
+                         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bangaloremaitri@gmail.com" target="_blank" ><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+  <a class="download-btn" href="maitri_resume.pdf" download>Download CV</a>
+</div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2 data-aos="fade-up" data-aos-duration="1000">My Skills</h2>
+            <div class="typewriter-skills" data-aos="fade-right" data-aos-duration="1000">
+                I'm skilled in <span class="typing-skill"></span>
+            </div>
+        
+            <div class="skills-container">
+        
+                <div class="skill">
+                    <h3>Python</h3>
+                    <span class="percentage">80%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>C / C++</h3>
+                    <span class="percentage">80%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>Java</h3>
+                    <span class="percentage">70%</span>
+                    
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>Machine Learning</h3>
+                    <span class="percentage">75%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>Deep Learning</h3>
+                    <span class="percentage">70%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>NLP</h3>
+                    <span class="percentage">65%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 65%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <span class="percentage">80%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <span class="percentage">80%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 80%;"></div>
+                    </div>
+                </div>
+        
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <span class="percentage">70%</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <!-- Projects Section -->
+<section id="projects">
+  <div class="section-title" data-aos="fade-up" data-aos-duration="1000">My Projects</div>
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="200">
+      <img src="mynora.png" alt="Mynora Clothing Website" class="imgp1">
+      <h3>Mynora Clothing Website</h3>
+      <p>MYNORA, an elegant and modern clothing e-commerce website designed for fashion enthusiasts. Features include a stylish landing page, product showcase, and intuitive shopping experience.</p>
+      <a class="github-icon-button" href="https://github.com/maitri-2004/MYNORA-Clothing-website" target="_blank">
+        <i class="fa-brands fa-github"></i>&nbsp; GitHub
+      </a>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="400">
+      <img src="medical.jpg" alt="Medical Insurance Cost Prediction" class="imgp">
+      <h3>Medical Insurance Cost Prediction</h3>
+      <p>This project uses machine learning algorithms to estimate insurance premiums based on age, BMI, smoking status, and region, helping both insurers and individuals make cost decisions.</p>
+      <a class="github-icon-button" href="https://github.com/maitri-2004/Medical-Insurance-Cost-Prediction" target="_blank">
+        <i class="fa-brands fa-github"></i>&nbsp; GitHub
+      </a>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project-card" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="600">
+      <img src="car.jpg" alt="Car Price Prediction" class="imgp">
+      <h3>Car Price Prediction</h3>
+      <p>A regression-based ML project that predicts car prices using factors like brand, model, mileage, engine capacity, and age, helping buyers make informed pricing decisions.</p>
+      <a class="github-icon-button" href="https://github.com/maitri-2004/car-price-prediction" target="_blank">
+        <i class="fa-brands fa-github"></i>&nbsp; GitHub
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact">
+    <div class="section-title" data-aos="fade-up" data-aos-duration="1000">Contact Me</div>
+    <form class="contact-form" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer class="footer1">
+    <p>✨ Thank you for visiting my portfolio! ✨</p>
+</footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+        <script src="portfolio.js"></script>
+
+</body>
+</html>
